@@ -24,7 +24,14 @@
 }
 
 #elise {
-
+  font-family: 'elise', cursive;
+  padding: 26px;
+  overflow: hidden;
+  height: 165px;
+  background-color: rgb(255, 251, 239);
+  text-align: center;
+  border: 3px solid rgb(168, 157, 142);
+  box-shadow: 5px 5px 5px rgb(213, 216, 213);
 }
 
 #one, #two  {
