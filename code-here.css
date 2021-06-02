@@ -34,18 +34,22 @@
   box-shadow: 5px 5px 5px rgb(213, 216, 213);
 }
 
-#one, #two{
+#one, #two {
   margin-top: 92px;
   margin-left: 40px;
   margin-right: 8px;
-  position: relative;
-  align-self: left;
   overflow: hidden;
   background-color: rgb(61, 255, 212);
   font-family: arial;
   padding: 44px, 44px, 44px, 0;
   float: left;
 }
+
+/* Try
+    1 regular border with outline
+    2 regular border inset and/or outset with outline
+    3 mixed
+*/
 
 .doubles > p {
   padding: 25px;
