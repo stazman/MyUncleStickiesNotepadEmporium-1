@@ -36,26 +36,34 @@
 
 #one, #two {
   margin-top: 92px;
+  overflow: hidden;
   margin-left: 40px;
   margin-right: 8px;
-  overflow: hidden;
   background-color: rgb(61, 255, 212);
-  font-family: arial;
-  padding: 44px, 44px, 44px, 0;
   float: left;
+  padding: 0;
+  text-align: center;
+  border-left: 5px solid #34ced1;
+  border-top: 5px solid #34ced1;
+  border-bottom: 5px solid rgb(0, 126, 128);
+  border-right: 5px solid rgb(0, 126, 128);
+  font-family: Arial;
 }
 
-/* Try
-    1 regular border with outline
-    2 regular border inset and/or outset with outline
-    3 mixed
-*/
+/* Try to refactor with mixed */
+/* Fix black font issue */
 
 .doubles > p {
-  padding: 25px;
-  text-align: center;
-  border: 4px inset; 
-}
+  height: 128px;
+  overflow: hidden;
+  font-family: Arial;
+  margin: 0;
+  padding: 13px 17px 0 17px;
+  border-left: 5px solid rgb(0, 126, 128);
+  border-top: 5px solid rgb(0, 126, 128);
+  border-right: 5px solid #34ced1; 
+  border-bottom: 5px solid #34ced1;
+}  
 
 #gaudi {
 
