@@ -40,18 +40,18 @@
   margin-left: 40px;
   margin-right: 8px;
   background-color: rgb(61, 255, 212);
-  float: left;
   padding: 0;
   text-align: center;
   border-left: 5px solid #34ced1;
   border-top: 5px solid #34ced1;
   border-bottom: 5px solid rgb(0, 126, 128);
-  border-right: 5px solid rgb(0, 126, 128);
+  border-right: 5px solid rgb(108, 187, 189);
   font-family: Arial;
+    /* float: left; */
+  display: inline-block;
 }
 
-/* Try to refactor with mixed */
-/* Fix black font issue */
+/* Try to refactor with mixed border styles */
 
 .doubles > p {
   height: 128px;
@@ -66,7 +66,12 @@
 }  
 
 #gaudi {
-
+  font-family: "Yusei Magic", sans-serif;
+  overflow: hidden;
+  background-color: #F39F79;
+  border-radius: 15px 45px;
+  padding: 13px 15px 0 15px;
+  text-align: center;
 }
 
 
