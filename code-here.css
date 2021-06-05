@@ -17,7 +17,7 @@
   border-width: 16px;
   border-style: double;
   text-align: center;
-  font-family: arial; 
+  font-family: arial;
   padding: 21px 14px 0 14px;
   overflow: hidden;
   line-height: 110%;
@@ -47,11 +47,8 @@
   border-bottom: 5px solid rgb(0, 126, 128);
   border-right: 5px solid rgb(108, 187, 189);
   font-family: Arial;
-    /* float: left; */
   display: inline-block;
 }
-
-/* Try to refactor with mixed border styles */
 
 .doubles > p {
   height: 128px;
@@ -61,9 +58,9 @@
   padding: 13px 17px 0 17px;
   border-left: 5px solid rgb(0, 126, 128);
   border-top: 5px solid rgb(0, 126, 128);
-  border-right: 5px solid #34ced1; 
+  border-right: 5px solid #34ced1;
   border-bottom: 5px solid #34ced1;
-}  
+}
 
 #gaudi {
   font-family: "Yusei Magic", sans-serif;
@@ -73,9 +70,3 @@
   padding: 13px 15px 0 15px;
   text-align: center;
 }
-
-/* repo test */
-/* second repo test */
-
-
-
